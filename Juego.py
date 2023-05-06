@@ -38,19 +38,19 @@ class Juego:
 
     def __init__(self):
         # imagenes, se le asigna el valor correspondiente al costo inicial
-        self.blanco = (pygame.image.load("../../../PycharmProjects/AgentePinocho/imagenes/blanco.png"))
-        self.pinocho = (pygame.image.load("../../../PycharmProjects/AgentePinocho/imagenes/pinocho.png"))
-        self.cigarros = (pygame.image.load("../../../PycharmProjects/AgentePinocho/imagenes/cigarros.png"))
-        self.negro = (pygame.image.load("../../../PycharmProjects/AgentePinocho/imagenes/negro.png"))
-        self.zorro = (pygame.image.load("../../../PycharmProjects/AgentePinocho/imagenes/zorro.png"))
-        self.gepetto = (pygame.image.load("../../../PycharmProjects/AgentePinocho/imagenes/geppetto.png"))
+        self.blanco = (pygame.image.load("imagenes/blanco.png"))
+        self.pinocho = (pygame.image.load("imagenes/pinocho.png"))
+        self.cigarros = (pygame.image.load("imagenes/cigarros.png"))
+        self.negro = (pygame.image.load("imagenes/negro.png"))
+        self.zorro = (pygame.image.load("imagenes/zorro.png"))
+        self.gepetto = (pygame.image.load("imagenes/geppetto.png"))
         # ventana
         self.BLANCA = (255, 255, 255)
         self.size = 500
 
         self.ventana = pygame.display.set_mode((self.size, self.size-100))
         pygame.display.set_caption("Pinocho")
-        self.icon = pygame.image.load("../../../PycharmProjects/AgentePinocho/icono.jpg")
+        self.icon = pygame.image.load("icono.jpg")
         pygame.display.set_icon(self.icon)
         self.ventana.fill(self.BLANCA)
 

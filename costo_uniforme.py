@@ -1,9 +1,6 @@
-from typing import Any
 import numpy as np
 import queue as Queue
-from numpy.core.fromnumeric import shape
 
-from numpy.lib import shape_base
 
 #Carga de datos txt, interpretacion de valores
 tablero = np.loadtxt('matriz.txt', skiprows=0)
